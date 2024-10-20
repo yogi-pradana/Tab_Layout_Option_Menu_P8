@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    tools:context=".DashboardFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/homepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Homepage"
+        android:textSize="50sp"
+        android:fontFamily="@font/splash_font"/>
+
+    <TextView
+        android:id="@+id/welcome_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Welcome back,"
+        android:textSize="24sp"
+        android:fontFamily="@font/princess_sofia"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_4"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/ask_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How are you doing today?"
+        android:layout_marginTop="20dp"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/reaction_image"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_5"/>
+
+
+</LinearLayout>
